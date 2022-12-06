@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  padding: 100;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.tres {
+  width: 100%;
+  height: 237px;
+  background-color: rgb(170, 165, 165);
+  position: absolute;
+  top: 1920px;
+  display: flex;
+}
+
+.sumo {
+  display: flex;
+  position: absolute;
+  top: 296px;
+  left: 1062px;
+  z-index: -1;
+  height: 313px;
+  width: 774px;
+}
+
+p {
+  font-weight: bold;
+}
+
+#OLAA {
+  position: absolute;
+  left: -10px;
+  top: -80px;
+  height: 350px;
+}
+
+.underline span {
+  position: fixed;
+  right: 1653px;
+  margin-top: 59px;
+  background-color: rgb(170, 165, 165);
+  width: 130px;
+  height: 6px;
+}
+
+h3.header {
+  position: absolute;
+  color: #c7c7c7;
+  text-align: center;
+  text-decoration: solid;
+  right: 83%;
+  font-size: 31px;
+}
+
+#OLA {
+  position: absolute;
+  left: -117px;
+  margin-top: -379px;
+  height: 535px;
+  z-index: 111;
+}
+
+div.conectore {
+  z-index: 1;
+  position: absolute;
+  right: -500px;
+  top: -11px;
+  flex-direction: column;
+  overflow: hidden;
+  filter: opacity(0.8) drop-shadow(-2px 0px 1px #1c3f62);
+}
+
+
+
+.container {
+  width: 100%;
+}
+
+div.reparar {
+  position: absolute;
+  right: 0px;
+  padding-top: 32rem;
+  overflow: hidden;
+
+}
+
+div.reparar img {
+  width: 727px;
+  height: 286px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.registerbtn {
+  background-color: #427db8;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+div.position-relative {
+  display: flex;
+  top: 30px;
+}
+
+body.cor {
+  overflow-x: hidden;
+  display: block;
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 768px) {
+  body.cor {
+    background-color: white;
+  }
+
+  @media screen and (max-width: 788px) {
+    div.conectore {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    div.position-relative {
+      width: 100%;
+    }
+  }
+}
